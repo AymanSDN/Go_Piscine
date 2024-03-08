@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ls -la -p -t -m --ignore=.. --ignore=".*" | tr -d " "
